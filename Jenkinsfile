@@ -12,7 +12,7 @@ pipeline {
   
   stages {
     stage('Demo') {
-      step {
+      steps {
         sh 'echo Testing Demo stage'
       
       }
