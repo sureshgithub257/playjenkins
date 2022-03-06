@@ -9,4 +9,14 @@ pipeline {
       yamlFile 'builder.yaml'
     }
   }
+  
+  stages {
+    stage('Demo') {
+      step {
+        sh 'echo Testing Demo stage'
+      
+      }
+    }
+  
+  }
 }
